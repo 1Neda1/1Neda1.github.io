@@ -3,150 +3,176 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #f0f0f0; /* Light grey for general text */
-  background-color: #121212; /* Dark background */
+  color: #ffffff; /* Changed text color to white */
 }
 
 a {
-  color: #34b7a7; /* Green links */
+  color: #0e3829; /* Changed link color */
   text-decoration: none;
 }
 
 a:hover {
-  color: #78d9cd; /* Lighter green on hover */
+  color: #0e2238; /* Changed hover link color */
   text-decoration: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
-  color: #ffffff; /* White headings */
+  color: #ffffff; /* Text color changed */
 }
 
 #main {
   margin-top: 50px;
-  background-color: #181818; /* Darker background for main content */
-}
-
-@media (max-width: 992px) {
-  #main {
-    margin-top: 30px;
-  }
 }
 
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
 #preloader {
-  background: #1c1c1c; /* Dark preloader background */
+  background: #220e38; /* Changed background color */
 }
 
 #preloader:before {
-  border: 6px solid #34b7a7; /* Green preloader animation */
-  border-top-color: #4caf50; /* Lighter green */
+  border: 6px solid #0e3829; /* Changed preloader border color */
+  border-top-color: #220e38; /* Changed preloader top border color */
 }
 
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
 .back-to-top {
-  background: #34b7a7; /* Green button */
+  background: #0e3829; /* Changed background color */
 }
 
 .back-to-top:hover {
-  background: #4caf50; /* Lighter green hover effect */
+  background: #0e2238; /* Changed hover background color */
 }
 
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: #181818; /* Dark header background */
-  box-shadow: 0px 0px 25px 0 rgba(0, 0, 0, 0.6); /* Dark shadow */
+  background: #0e3829; /* Changed header background */
 }
 
 #header .logo a {
-  color: #34b7a7; /* Green logo text */
+  color: #ffffff; /* Changed logo text color */
 }
 
 .header-social-links a {
-  color: #888888; /* Grey for social icons */
+  color: #ffffff; /* Changed social links color */
 }
 
 .header-social-links a:hover {
-  color: #34b7a7; /* Green hover for social icons */
+  color: #220e38; /* Changed social links hover color */
 }
 
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
-.navbar a {
-  color: #cccccc; /* Light grey for nav links */
+.navbar a, .navbar a:focus {
+  color: #ffffff; /* Changed navigation links color */
 }
 
-.navbar a:hover,
-.navbar .active {
-  color: #ffffff; /* White for active and hover nav links */
+.navbar a:hover, .navbar .active, .navbar li:hover>a {
+  color: #220e38; /* Changed hover and active link color */
 }
 
 .navbar .dropdown ul {
-  background: #222222; /* Darker background for dropdown */
-}
-
-.navbar .dropdown ul a:hover {
-  color: #34b7a7; /* Green hover on dropdown items */
+  background: #0e2238; /* Changed dropdown background */
 }
 
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-#hero {
-  background-color: #181818; /* Dark background */
-}
-
-#hero h2 {
-  color: #34b7a7; /* Green headings */
-}
-
-#hero p {
-  color: #b0b0b0; /* Light grey for text */
-}
-
 #hero .btn-get-started {
-  background: #34b7a7; /* Green button */
-  color: #ffffff;
+  background: #220e38; /* Changed button background */
+  color: #ffffff; /* Changed button text color */
 }
 
 #hero .btn-get-started:hover {
-  background: #4caf50; /* Lighter green hover effect */
+  background: #0e2238; /* Changed hover button background */
 }
 
 /*--------------------------------------------------------------
-# Section General
+# Sections General
 --------------------------------------------------------------*/
-section {
-  background-color: #202020; /* Dark background for sections */
-}
-
-.section-title h2 {
-  color: #ffffff; /* White for section titles */
-}
-
 .section-title h2::after {
-  background: #34b7a7; /* Green underline for titles */
+  background: #220e38; /* Changed section title underline */
 }
 
-.section-title p {
-  color: #b0b0b0; /* Light grey for section subtitles */
+/*--------------------------------------------------------------
+# Cta
+--------------------------------------------------------------*/
+.cta {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/bg-1.jpg") fixed center center;
+}
+
+.cta .cta-btn {
+  border: 2px solid #220e38; /* Changed button border */
+}
+
+.cta .cta-btn:hover {
+  background: #0e2238; /* Changed button hover background */
+  border: 2px solid #0e2238;
+}
+
+/*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+.about .content h3 {
+  color: #ffffff; /* Changed text color */
+}
+
+.about .content ul i {
+  color: #0e3829; /* Changed icon color */
+}
+
+/*--------------------------------------------------------------
+# Skills
+--------------------------------------------------------------*/
+.skills .progress-bar {
+  background-color: #0e3829; /* Changed progress bar color */
+}
+
+/*--------------------------------------------------------------
+# Testimonials
+--------------------------------------------------------------*/
+.testimonials .testimonial-item h3 {
+  color: #ffffff; /* Changed testimonial text color */
+}
+
+.testimonials .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #0e2238; /* Changed active bullet color */
+}
+
+/*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+.contact .info i {
+  background: #220e38; /* Changed contact icon background */
+}
+
+.contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
+  border-color: #0e3829; /* Changed focus border color */
+}
+
+.contact .php-email-form button[type=submit] {
+  background: #0e3829; /* Changed button background */
+}
+
+.contact .php-email-form button[type=submit]:hover {
+  background: #0e2238; /* Changed button hover background */
 }
 
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #181818; /* Dark footer background */
-  color: #cccccc; /* Light grey text */
+  background: #0e2238; /* Changed footer background */
+  color: #ffffff; /* Changed footer text color */
 }
 
 #footer .credits a {
-  color: #34b7a7; /* Green links in the footer */
+  color: #0e3829; /* Changed footer link color */
 }
