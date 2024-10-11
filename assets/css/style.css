@@ -1,30 +1,30 @@
-/**
-* Dark Theme Customization
-*/
-
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #f0f0f0;
+  color: #f0f0f0; /* Light grey for general text */
   background-color: #121212; /* Dark background */
 }
 
 a {
-  color: #34b7a7; /* Green accent */
+  color: #34b7a7; /* Green links */
   text-decoration: none;
 }
 
 a:hover {
-  color: #78d9cd; /* Lighter green hover effect */
+  color: #78d9cd; /* Lighter green on hover */
   text-decoration: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
-  color: #ffffff; /* White text */
+  color: #ffffff; /* White headings */
 }
 
 #main {
   margin-top: 50px;
+  background-color: #181818; /* Darker background for main content */
 }
 
 @media (max-width: 992px) {
@@ -33,76 +33,82 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/* Preloader */
+/*--------------------------------------------------------------
+# Preloader
+--------------------------------------------------------------*/
 #preloader {
   background: #1c1c1c; /* Dark preloader background */
 }
 
 #preloader:before {
-  border: 6px solid #34b7a7;
-  border-top-color: #4caf50; /* Green for preloader animation */
+  border: 6px solid #34b7a7; /* Green preloader animation */
+  border-top-color: #4caf50; /* Lighter green */
 }
 
-/* Back to top button */
+/*--------------------------------------------------------------
+# Back to top button
+--------------------------------------------------------------*/
 .back-to-top {
-  background: #34b7a7; /* Green */
+  background: #34b7a7; /* Green button */
 }
 
 .back-to-top:hover {
-  background: #4caf50; /* Lighter green */
+  background: #4caf50; /* Lighter green hover effect */
 }
 
-/* Header */
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
 #header {
-  background: #181818; /* Dark header */
+  background: #181818; /* Dark header background */
   box-shadow: 0px 0px 25px 0 rgba(0, 0, 0, 0.6); /* Dark shadow */
 }
 
 #header .logo a {
-  color: #34b7a7; /* Green for the logo */
+  color: #34b7a7; /* Green logo text */
 }
 
 .header-social-links a {
-  color: #888888; /* Grey for social links */
+  color: #888888; /* Grey for social icons */
 }
 
 .header-social-links a:hover {
-  color: #34b7a7; /* Green on hover */
+  color: #34b7a7; /* Green hover for social icons */
 }
 
-/* Navbar */
+/*--------------------------------------------------------------
+# Navigation Menu
+--------------------------------------------------------------*/
 .navbar a {
-  color: #cccccc; /* Light grey text */
+  color: #cccccc; /* Light grey for nav links */
 }
 
 .navbar a:hover,
 .navbar .active {
-  color: #ffffff; /* White on hover */
-}
-
-.navbar ul {
-  background: #181818; /* Dark background */
+  color: #ffffff; /* White for active and hover nav links */
 }
 
 .navbar .dropdown ul {
-  background: #222222; /* Darker background */
+  background: #222222; /* Darker background for dropdown */
 }
 
 .navbar .dropdown ul a:hover {
-  color: #34b7a7; /* Green on hover */
+  color: #34b7a7; /* Green hover on dropdown items */
 }
 
-/* Hero Section */
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
 #hero {
   background-color: #181818; /* Dark background */
 }
 
 #hero h2 {
-  color: #34b7a7; /* Green heading */
+  color: #34b7a7; /* Green headings */
 }
 
 #hero p {
-  color: #b0b0b0; /* Light grey text */
+  color: #b0b0b0; /* Light grey for text */
 }
 
 #hero .btn-get-started {
@@ -111,60 +117,36 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-get-started:hover {
-  background: #4caf50; /* Lighter green on hover */
+  background: #4caf50; /* Lighter green hover effect */
 }
 
-/* Section General */
+/*--------------------------------------------------------------
+# Section General
+--------------------------------------------------------------*/
 section {
-  background-color: #202020; /* Dark section background */
-}
-
-.section-bg {
-  background-color: #282828; /* Slightly lighter dark background */
-}
-
-.section-title h2::after {
-  background: #34b7a7; /* Green underline */
+  background-color: #202020; /* Dark background for sections */
 }
 
 .section-title h2 {
-  color: #ffffff; /* White section titles */
+  color: #ffffff; /* White for section titles */
+}
+
+.section-title h2::after {
+  background: #34b7a7; /* Green underline for titles */
 }
 
 .section-title p {
-  color: #b0b0b0; /* Light grey section subtitle */
+  color: #b0b0b0; /* Light grey for section subtitles */
 }
 
-/* CTA */
-.cta {
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/bg-1.jpg") center center no-repeat;
-  background-size: cover;
-}
-
-.cta h3, .cta p {
-  color: #ffffff; /* White text */
-}
-
-.cta .cta-btn {
-  background: #34b7a7; /* Green CTA button */
-  border-color: #34b7a7;
-}
-
-/* About */
-.about .content h3 {
-  color: #34b7a7; /* Green headings in About section */
-}
-
-.about .content ul i {
-  color: #34b7a7; /* Green icons */
-}
-
-/* Footer */
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
 #footer {
-  background: #181818; /* Dark footer */
-  color: #cccccc; /* Light grey footer text */
+  background: #181818; /* Dark footer background */
+  color: #cccccc; /* Light grey text */
 }
 
 #footer .credits a {
-  color: #34b7a7; /* Green links in footer */
+  color: #34b7a7; /* Green links in the footer */
 }
